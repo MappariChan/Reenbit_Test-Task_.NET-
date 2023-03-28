@@ -1,0 +1,24 @@
+button {
+  padding: 20px 40px;
+  color: white;
+  font-weight: bold;
+  background: rgb(68, 0, 77);
+  border: none;
+  border-radius: 5px;
+  min-width: 250px;
+  transition: 100ms;
+  transform: scale(1);
+}
+
+.button:active {
+  background: rgb(48, 0, 54);
+}
+
+.button:hover {
+  transition: 250ms;
+  transform: scale(0.95);
+}
+
+.button-disabled {
+  background: rgb(63, 63, 63);
+}

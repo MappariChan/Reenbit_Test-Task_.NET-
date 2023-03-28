@@ -1,0 +1,38 @@
+.form {
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 2px 0.75px black;
+  display: flex;
+  flex-direction: column;
+  width: 25vw;
+  min-width: 350px;
+  margin: 40px auto 0;
+  align-content: center;
+}
+
+.form-item {
+  margin: 7px;
+}
+
+input.form-item {
+  border-width: 0.7px;
+}
+
+input.form-item:focus {
+  outline: none;
+}
+
+button.form-item {
+  margin: 40px auto 0;
+  max-width: 150px;
+}
+
+.form-item-invalid {
+  border-color: red;
+}
+
+.form-warning {
+  color: red;
+  font-size: 12px;
+  margin: 0 9px;
+}
