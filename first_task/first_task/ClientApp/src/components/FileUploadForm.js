@@ -71,8 +71,7 @@ const FileUploadForm = () => {
 
   const formSubmitHandler = (event) => {
     event.preventDefault();
-
-    console.log(file);
+    alert("We are sending your file to the blob storage!");
 
     const formData = new FormData();
     formData.append("Email", email.email);
